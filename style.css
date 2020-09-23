@@ -17,7 +17,6 @@
   
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -26,11 +25,11 @@
   padding: 1rem;
 }
 
-/*THIS IS WHERE YOU CHANGE THE BACKGROUND IMAGE!!!!!!*/
+
 body{
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image:url(img/TC_background.png);
+  background-image:url(img/TC_background.png); /*TODO: Find your own background image and replace this --> url(img/your_image_goes_here)*/
   color: white;
 }
 
