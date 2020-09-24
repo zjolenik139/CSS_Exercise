@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-<<<<<<< HEAD
-=======
 /*---Media Queries --*/
 @media (max-width: 992px) {
   
@@ -10,18 +8,14 @@
   
 }
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
->>>>>>> parent of 2fc8151... Simplified CSS, added a TODO for index.html, and added TODOs in CSS related to TODO in index.html
 @media (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
   }
 }
-<<<<<<< HEAD
-=======
 @media (max-width: 576px) {
   
 }
->>>>>>> parent of 2fc8151... Simplified CSS, added a TODO for index.html, and added TODOs in CSS related to TODO in index.html
 
 body{ /*TODO: This is where you adjust the background image for the website*/
   background-repeat: no-repeat;
@@ -59,28 +53,10 @@ body{ /*TODO: This is where you adjust the background image for the website*/
   padding: 10px;
 }
 
-<<<<<<< HEAD
-/* Left and right column */
-.column.side {
-  width: 25%;
-  height: 250px;
-  text-align: center;
-  padding: 5px;
-  
-}
-
-/* Middle column */
-.column.middle {
-  width: 48.9%;
-  height: 250px;
-  text-align: center;
-  
-=======
 .contact-me{
   width: 25%;
   height: 350px;
   border: 1px solid black;
->>>>>>> parent of 2fc8151... Simplified CSS, added a TODO for index.html, and added TODOs in CSS related to TODO in index.html
 }
 
 .footer { /*TODO: This is where you adjust the footer*/
