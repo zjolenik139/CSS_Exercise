@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
 body{ /*TODO: This is where you adjust the background image for the website*/
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -42,6 +48,22 @@ body{ /*TODO: This is where you adjust the background image for the website*/
 
     margin-top: 20px;*/
 
+/* Left and right column */
+.column.side {
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  padding: 5px;
+  
+}
+
+/* Middle column */
+.column.middle {
+  width: 48.9%;
+  height: 250px;
+  text-align: center;
+  
+}
 
 .footer { /*TODO: This is where you adjust the footer*/
   position: fixed;
