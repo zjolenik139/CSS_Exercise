@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+<<<<<<< HEAD
+=======
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+>>>>>>> parent of 2fc8151... Simplified CSS, added a TODO for index.html, and added TODOs in CSS related to TODO in index.html
 @media (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
   }
 }
+<<<<<<< HEAD
+=======
+@media (max-width: 576px) {
+  
+}
+>>>>>>> parent of 2fc8151... Simplified CSS, added a TODO for index.html, and added TODOs in CSS related to TODO in index.html
 
 body{ /*TODO: This is where you adjust the background image for the website*/
   background-repeat: no-repeat;
@@ -13,41 +30,36 @@ body{ /*TODO: This is where you adjust the background image for the website*/
   color: white;
 }
 
-#download_button{ /*TODO: This is where you adjust the download button */
-  margin: 0px;
-  /*width: 
-  height:*/ 
-}
-
 #my-resume{  /*TODO: This is where you adjust the "My Resume" caption */
   padding-left: 49px;
-  /* Try adding properties like width: 100px  and see how the chnages affect your HTML. CTRL + S is the key board-shortcut to save the document */
 }
 
-/* TODO: create a .box rule */
+.column.middle {
+  width: 48.9%;
+  height: 250px;
+  text-align: center;  
+}
 
-/* TODO: Add these properties to the .box rule and play with the values to see how they will affect your HTML Document */
+.column.side {
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  padding: 5px;  
+}
 
-    /*background-color: #333;
-    color: #fff; 
+.contact-info{
+  position: absolute;
+  top: 90px;
+  right: 15px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
 
-    border-right: 5px red solid;
-    border-left: 5px red solid;
-    border-top: 5px red solid;
-    border-bottom: 5px red solid;
-    
-    border: 5px red solid;
-    border-width: 3px;
-    border-bottom-width: 10px;
-    border-top-style: dotted;    
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    padding-left: 20px;   
-
-    margin-top: 20px;*/
-
+<<<<<<< HEAD
 /* Left and right column */
 .column.side {
   width: 25%;
@@ -63,6 +75,12 @@ body{ /*TODO: This is where you adjust the background image for the website*/
   height: 250px;
   text-align: center;
   
+=======
+.contact-me{
+  width: 25%;
+  height: 350px;
+  border: 1px solid black;
+>>>>>>> parent of 2fc8151... Simplified CSS, added a TODO for index.html, and added TODOs in CSS related to TODO in index.html
 }
 
 .footer { /*TODO: This is where you adjust the footer*/
@@ -77,9 +95,24 @@ body{ /*TODO: This is where you adjust the background image for the website*/
   text-align: center;
 }
 
+.resume{
+  position: relative;
+  width: 800px;
+}
 
 
 
 
 
-
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
