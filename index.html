@@ -1,212 +1,66 @@
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSS Intro</title>
+    <!-- Exercise 1: Add a link element with a href attribute that links your external css file to this document  -->
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-	<title>
-		Bryant Portfolio</title>
-	<!-- This is a link to bootstrap-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<link href="style.css" rel="stylesheet">
-</head>
+    <main>
+      <section>
+        <h1>Main Heading</h1>
+        <img src="./images/example.png" alt="Author Headshot" />
+        <p>Author.. Bio...</p>
+      </section>
+      <article>
+        <section>
+          <h2>Sub Heading</h2>
+          <p>Lorem ipsum...</p>
+        </section>
+        <section>
+          <h2>Sub Heading</h2>
+          <p>Lorem ipsum...</p>
+          <div>
+            <h3>Another Sub Heading</h3>
+            <p>Lorem ipsum...</p>
+          </div>
+        </section>
+      </article>
+    </main>
 
-<body>
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="/privacy">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="/terms">Terms and Conditions</a>
+          </li>
+        </ul>
+      </nav>
 
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark" data-spy="affix" data-offset-top="197">
-		<a class="navbar-brand" href="#">My Portfolio</a>
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="#">LinkedIn</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Github Profile</a>
-			</li>
-		</ul>
-	</nav>
-
-
-	<!-- BONUS -->
-	<!-- TODO: Create your own <div></div> here and give it a class name of "sidebar" example(class="sidebar") -->
-	<!-- TODO: Inside of it put a <p></p> tag and inside put some text example(<p>Type Lorem and hit tab twice</p>) -->
-	<!--<div class="sidebar">
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-			Optio dolorum iure cum perspiciatis sapiente iusto minus sint aliquam?
-			Et assumenda id doloremque quasi quaerat eligendi amet eius possimus maiores. Repudiandae?</p>
-		<div>
-			<ul>
-				<li>
-					<h4>Languages</h4>
-				</li>
-				<li>
-					<h4>Something</h4>
-				</li>
-				<li>
-					<h4>Something Else</h4>
-				</li>
-			</ul>
-		</div>
-		<div class="resume">
-		<h3 id="my-resume"><i>My Resume</i></h3>-->
-
-	<!-- TODO: Replace "TrueCoders Master Resume Template.pdf with YOUR resume pdf file"-->
-	<!--<a href="TrueCoders Master Resume Template.pdf" download><img src="/img/download-button.png"
-			id="download_button"></a>
-		</div>
-		</div>
-		<br>
-		<br>
-		<div class="collapse-button">
-			<p>use JavaScript to make sidebar collapsable</p>
-		</div>-->
-
-
-
-	< <div class="container">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<!-- We use "col-sm-'x' as a bootstrap column class -->
-					<!-- TODO: Try changing the number here from "col-sm-4" to "col-sm-6" and see how it changes the document -->
-					<h3><b>Your Picture Goes Here</b></h3>
-					<img src="/img/profile-pic.png">
-				</div>
-				<div class="col-sm-6">
-					<h3><b>About Me</b></h3>
-					<p>
-						<!-- TODO: type a brief summary of yourself here -->
-					</p>
-				</div>
-
-				<!-- TODO: You can add or remove as many tags that you need to-->
-				<div class="col-sm-2">
-					<h3><b>Contact Me</b></h3>
-					<ul>
-						<li>
-							<!-- TODO: type your cell number here-->
-						</li>
-						<li>
-							<!-- TODO: type your email here-->
-						</li>
-						<li>
-							<!-- TODO: type your address here-->
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<!-- TODO: You can add or remove as many tags that you need to-->
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-9">
-					<h2><b>Work Experience</b></h2>
-					<ul>
-						<li>
-							<!-- TODO: Type your work experience here inside the <li> tags -->
-						</li>
-						<li>
-							<!-- TODO: Type your work experience here inside the <li> tags -->
-						</li>
-						<li>
-							<!-- TODO: Type your work experience here inside the <li> tags -->
-						</li>
-					</ul>
-				</div>
-				<div class="col-sm-3">
-					<!-- TODO: add another section here if you would like to <h2> Title </h2> -->
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="project1">
-						<p><b>Best Buy CRUD Database Website: C# | ASP.NET Core MVC | SQL | HTML | CSS | JavaScript</b>
-						</p>
-						<ul>
-							<li>
-								<!-- TODO: Type a summary of your project here (it doesn't HAVE to be at least 4 list items)-->
-							</li>
-							<li>
-								<!-- TODO: Type a summary of your project here (it doesn't HAVE to be at least 4 list items)-->
-							</li>
-							<li>
-								<!-- TODO: Type a summary of your project here (it doesn't HAVE to be at least 4 list items)-->
-							</li>
-							<li>
-								<!-- TODO: Type a summary of your project here (it doesn't HAVE to be at least 4 list items)-->
-							</li>
-						</ul>
-						</disv>
-
-						<div class="project2">
-							<p><b>Tacobell Geolocator: C# | .NET Core | SQL | xUnit</b></p>
-							<ul>
-								<!-- TODO: You can add or remove as many tags that you need to-->
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-							</ul>
-						</div>
-
-						<div class="project3">
-							<p><b>KanyeREST: C# | .NET Core | JSON | API</b></p>
-							<ul>
-								<!-- TODO: You can add or remove as many tags that you need to-->
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-								<li>
-									<!-- TODO: Type a summary of your project here -->
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="row">
-					<!-- TODO: Replace what's inside the <p> tag and add any extra information you think is relavent here. For example (awards, certifications, recommendations)-->
-					<p></p>
-				</div>
-
-
-
-
-
-
-				<!--- Footer -->
-				<div class="footer">
-					<!-- TODO: Replace and type your footer here -->
-					<p>Bryant Portfolio Website Template © 2020
-					</p>
-				</div>
-				<br>
-			</div>
-		</div>
-
-		</div>
-
-
-
-
-
-
-</body>
-
+      <div>
+        <p>Powered by 🕯️</p>
+        <p>&copy; TrueCoders 2021-24</p>
+      </div>
+    </footer>
+  </body>
 </html>
